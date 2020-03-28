@@ -22,6 +22,12 @@ namespace WebDemo.Controllers
         {
             return a * b;
         }
+        [HttpGet]
+        public double GetDifference(int a, int b)
+        {
+            return a - b;
+        }
+
 
         // GET api/<controller>/5
         [HttpGet("{id}")]
